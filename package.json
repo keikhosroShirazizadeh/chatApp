@@ -1,0 +1,22 @@
+{
+  "name": "mehrzadback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": " node -r dotenv/config app.js dotenv_config_path=configs/.env.prod",
+    "test": "nodemon -r dotenv/config app.js dotenv_config_path=configs/.env.test",
+    "dev": "nodemon -r dotenv/config app.js dotenv_config_path=configs/.env.dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mime-types": "^2.1.35",
+    "mongodb": "^6.8.0",
+    "nodemon": "^3.1.4"
+  }
+}
